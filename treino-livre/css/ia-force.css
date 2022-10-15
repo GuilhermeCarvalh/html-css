@@ -13,10 +13,12 @@
 *{
     padding:0;
     margin:0;
+    box-sizing:border-box;
     
 }
 body{
-    background-color:#fcfcfc
+    background-color:#fcfcfc;
+    min-width:320px;
 }
 .cabeçalho{
 
@@ -81,12 +83,14 @@ nav ul > li a:hover{
 
 }
 main{
-    margin-top:10px;
+    min-width:320px;
+    margin:10px auto 1% auto;
     display:flex;
-    margin:10px 10%;
+    width:80%;
     background-color:#172935;
     border-radius:5px;
     box-shadow:3px 4px 4px #064563aa;
+     
 
 }
 
@@ -94,16 +98,16 @@ main div {
    
     margin:20px 10px;
     width:50%;
+    max-height:900px;
 
 }
 
 main div > p {
     text-indent:30px;
     text-align:justify;
-    margin:4px;
     line-height:2em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+    font-size:2.6vh;
 }
 
 main div > p:hover{
@@ -114,7 +118,9 @@ main div > img {
     width:100%;
     border-radius:50px 5px;
 }
-
+main div >img:hover {
+    opacity: 0.9;
+}
 aside{
     margin:40px auto;
     
@@ -158,6 +164,7 @@ footer{
     color:#0494f3;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow:3px 2px black;
+    padding:5px;
   
    
 }
@@ -174,10 +181,12 @@ footer > adress:hover{
     color:white;
     border-top:1px solid #000000;
     transition:0.5s;
+    border:none;
 }
 
 footer > p:hover{
     color:white;
     border-top:1px solid #0282fa;
     transition:0.5s;
+    border:none;
 }
