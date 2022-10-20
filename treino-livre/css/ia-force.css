@@ -2,7 +2,7 @@
 
  @font-face {
     font-family:cubic;
-    src: url('/Bypass.ttf') format('truetype');
+    src: url('/treino-livre/fonte/cubic') format('truetype');
     font-weight:normal;
  }
  :root{
@@ -47,6 +47,7 @@ body{
     color:#0494f3;
     font-size:40px;
     border-top:2px groove rgb(67, 6, 146);
+    font-family:'cubic' , sans-serif;
 
 }
 .cabeçalho > nav{
