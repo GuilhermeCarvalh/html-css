@@ -1,29 +1,26 @@
 @charset "UTF-8";
 
 
-*{
-    padding:0px;
-    margin:0px;
-}
-body{
-    background-image: url('/imagens/wallpaper001.jpg');
-}
 
-div.quadrado{
+
+div.bloco{
+    height:200px;
     border:2px solid black;
-    width:300px;
-    height:300px;
-    display:inline-block;
     border-radius:10px;
-    background-color:lightgray;
+    MARGIN:10px;
+    background-image: url('/imagens/wallpaper003.jpg');
 }
 
-div#q1{
-  
+#q1{
+    background-position: left top;
 }
-div#q2{
-     background-image: linear-gradient(to bottom, blue, black);
+
+#q2{
+    background-position:left center;
 }
-div#q3{
-   background-image: url('/imagens/pattern001.png');
+#q3{
+    background-position:right bottom;
+}
+#q4{
+    background-position:center center;
 }
