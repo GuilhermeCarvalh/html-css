@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.pai{
+    width:500px;
+    height:500px;
+    background-color:purple;
+    position:relative;
+}
+.filho{
+    width:100px;
+    height:100px;
+    background-color:black;
+    position:absolute;
+    bottom:50%;
+    right:50%;
+    transform: translate(50%, 50%);
+}
