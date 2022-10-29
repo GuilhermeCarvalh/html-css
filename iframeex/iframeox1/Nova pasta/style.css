@@ -1,0 +1,25 @@
+table{
+    margin:auto;
+    border:3px solid rgba(32, 99, 25, 0.767);
+    width:50%;
+    border-collapse:collapse;
+    border-radius:10px;
+    background-color:white;
+}
+ td{
+    border:1px solid black;
+}
+th{
+    border:1px solid black;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(11, 44, 41);
+    color:rgb(105, 110, 109);
+}
+tbody td{
+    vertical-align:middle;
+    text-align:center;
+    font-family: sans-serif;
+    font-style: oblique;
+}
