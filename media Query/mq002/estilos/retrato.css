@@ -6,3 +6,7 @@ body{
    background-position:center bottom;
  
 }
+h1{
+   color:aqua;
+   text-shadow:0px 0px 4px black;
+}
