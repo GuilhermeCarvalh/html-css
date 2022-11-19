@@ -16,6 +16,7 @@ header > h1{
     padding:10px;
 }
 #burguer{
+    border-bottom:4px solid black;
     background-color:#343131;
     color:white;
     text-align:center;
@@ -27,6 +28,7 @@ header > h1{
     background-color: white;
     color:black;
     cursor:pointer;
+    transition:background 0.8s;
 }
 menu{
     display:none;
@@ -45,7 +47,7 @@ menu > ul > li > a{
 menu > ul > li a:hover{
     background-image: linear-gradient(#2e2a2a, gray, darkgray, #686565);
     color:white;
-    transition:border 0.5s, 0.7s;
+    transition:background 0.5s, 0.7s;
 }
 main{
     border-top:2px black;
